@@ -1,0 +1,38 @@
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+<link href="external-popup.css" rel="./css/stylesheet">
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+<script src="./js/external-popup.js"></script>
+
+<div class="container">
+  <div class="row justify-content-center">
+	  <div class="col-sm-6">
+	  	<br><br><h2 class="text-center">Select Registration Type</h2><br>
+		  <p class="text-center">
+		    <a href="signUp_doc.php" class="btn btn-info btn-lg cta-open">Doctor</a> <a href="signUp_pat.php" class="btn btn-info btn-lg cta-open">Patient</a>
+		  </p>
+	  </div>
+  </div>
+</div>
+
+<!-- start modal-->
+<div class="modal fade" id="speedbump" role="dialog">
+	<div class="modal-dialog">
+	  <!-- Modal content-->
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+		  <h4 class="modal-title">Notice</h4>
+		</div>
+		<div class="modal-body">
+		  <p>You are now leaving our website.</p>
+		</div>
+		<div class="modal-footer text-center">
+		  <button type="button" title="continue" class="btn btn-modal btn-continue" data-dismiss="modal">Continue</button>
+		  <button type="button" title="go back" class="btn btn-modal btn-close" data-dismiss="modal">Go Back</button>
+		</div>
+	  </div>
+
+	</div>
+</div>
+<!--end modal-->

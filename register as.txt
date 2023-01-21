@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<form>
+<label>Register As</label>
+  <select onchange="typeCheck(this);">
+    <option value="">Please Select</option>
+    <option value="doctor">Doctor</option>
+    <option value="patient">Patient</option>
+ 
+</select>
+
+<div id="ifDoc" style="display: none;">
+    <label for="doc_name">Doctor Full Name</label> <input type="text" name="doc_name" />
+    <label for="doc_mob">Contact No</label> <input type="text" name="doc_mob" />
+    <br/>
+    
+</div>
+<div id="ifPat" style="display: none;">    
+    <label for="pat_name">Patient Full Name</label> <input type="text" name="doc_name" />
+    <label for="pat_mob">Pat Contact No</label> <input type="text" name="doc_mob" />
+</div>
+</form>
+
+<script>
+function typeCheck(that) {
+    if (that.value == "doctor") {
+        document.getElementById("ifDoc").style.display = "block";
+    } else {
+        document.getElementById("ifDoc").style.display = "none";
+    }
+    if (that.value == "patient") {
+        document.getElementById("ifPat").style.display = "block";
+    } else {
+        document.getElementById("ifPat").style.display = "yes";
+    }
+}
+</script>
+
+</body>
+</html>

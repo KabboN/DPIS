@@ -1,0 +1,271 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #e9eff1;
+}
+
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#customers td,
+#customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#customers tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#customers tr:hover {
+    background-color: #ddd;
+}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: darkseagreen;
+    color: white;
+}
+
+div.nav {
+    width: 100%;
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+div.container {
+    width: 80%;
+    min-height: 530px;
+    margin: 0 auto;
+}
+div.login {
+    width: 40%;
+    min-height: 480px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: white;
+}
+div.registration {
+    width:50%;
+    min-height: 480px;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+}
+div.prescription {
+    width: 80%;
+    min-height: 500px  ;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: white;
+}
+div.finding {
+    width: 30%;
+    min-height: 300px  ;
+    float: left;
+    margin: 10px auto;
+    border-right: 1px solid grey;
+}
+div.rx {
+    width: 60%;
+    min-height: 300px  ;
+    float: right;
+    margin: 10px auto;
+}
+.resAs{
+    width:30%;
+    min-height: 200px;
+    margin: 100px auto;
+    margin-bottom: 220px;
+    border-radius: 10px;
+    border: 2px solid blue;
+    padding-bottom: 10px;
+    background-color: white;  
+}
+
+div.sign {
+    width: 30%;
+    margin: 0 auto;
+}
+
+div.full {
+    background: #e9eff1;
+    width: 100%;
+}
+.docInfo {
+    width: 45%;
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+    border: 1px dashed grey;
+    border-radius: 5px;
+    padding: 10px;
+}
+.patInfo {
+    width: 45%;
+    float: right;
+    margin-right: 10px;
+    border: 1px dashed grey;
+    border-radius: 5px;
+    padding: 10px;
+} 
+.search {
+    float: right;
+    padding: 10px;
+    //margin-top: -20px;
+} 
+.hr{
+    clear: both;
+padding-top: 30px;
+margin: 0 auto;
+} 
+div.advices {
+    width: 30%;
+    min-height: 200px;
+    margin: 0 auto;
+}
+
+ul li {
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+    background: dodgerblue;
+    padding: 8px 10px;
+    border-radius: 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+}
+a {
+    text-decoration: none;
+    //color: white;
+}
+
+ul li:hover {
+    background: cornflowerblue;
+
+}
+
+.footer {  
+    position: relative; 
+    bottom: 0px;
+    line-height: 50px;
+    width: 100%;
+    margin-bottom: 0px;    
+    text-align: center;
+    background-color: powderblue;    
+}
+
+/*Sign Up form */
+@font-face {
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Lato Regular'), local('Lato-Regular'), url(http://themes.googleusercontent.com/static/fonts/lato/v7/qIIYRU-oROkIk8vfvxw6QvesZW2xOQ-xsNqO47m55DA.woff) format('woff');
+}
+
+.wrap {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.avatar {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 65px;
+    border-radius: 100px;
+    height: 65px;
+    background: darkseagreen;
+    position: relative;
+    margin-top: 20px;
+   
+}
+
+.avatar img {
+    width: 70px;
+    height: 70px;
+    border-radius: 5px;
+    margin: auto;
+    border: 3px solid #448ed3;
+    display: block;
+    background: white;
+}
+
+.wrap input {
+    border: none;
+    background: #fff;
+    font-weight: 700;
+    display: block;
+    height: 40px;
+    outline: none;
+    width: calc(100% - 24px);
+    margin: auto;
+    padding: 6px 12px 6px 12px;
+}
+
+.bar {
+    width: 100%;
+    height: 1px;
+    background: #fff;
+}
+
+.bar i {
+    width: 95%;
+    margin: auto;
+    height: 1px;
+    display: block;
+    background: #d1d1d1;
+}
+
+.wrap input[type="text"] {
+    border-radius: 7px 7px 0px 0px;
+}
+
+.wrap input[type="password"] {
+    border-radius: 0px 0px 7px 7px;
+}
+
+.forgot_link {
+    color: #83afdf;
+    color: #83afdf;
+    text-decoration: none;
+    font-size: 11px;
+    position: relative;
+    left: 193px;
+    top: -36px;
+}
+
+.wrap button {
+    width: 100%;
+    border-radius: 7px;
+    background-color: slateblue;
+    text-decoration: center;
+    border: none;
+    color: white;
+    margin-top: -5px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    outline: none;
+    font-size: 14px;
+    //border-bottom: 3px solid #307d63;
+    cursor: pointer;
+}
+.wrap button:hover {
+    background-color: steelblue;
+}
